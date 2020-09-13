@@ -1,0 +1,6 @@
+<select name="" id="" (click)="disabled=$event.target.value">
+    <option value="true" >grey</option>
+    <option value="false" >red</option>
+</select>
+
+<p [ngClass]="disabled=='true'?'disabledred':'activered'">this does change colors by using ngClass    !!!!!!!!</p>

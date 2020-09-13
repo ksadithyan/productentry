@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "LearnRouting"
+    }
+  },
+  "defaultProject": "LearnRouting",
+  "cli": {
+    "analytics": "9a253760-bcb6-4f09-a831-6b7551570b68"
+  }
 }

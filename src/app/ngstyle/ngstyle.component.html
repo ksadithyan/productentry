@@ -1,0 +1,6 @@
+<p>ngstyle works!</p>
+<p [ngStyle]='{"color":"red"}'>welcome</p>
+<select name="" id="" (click)="vchcolor=$event.target.value">
+    <option *ngFor="let color of colors" value="{{color}}">{{color}}</option>
+</select>
+<p [ngStyle]='{"color":vchcolor}'>welcome to the world of coding</p>
